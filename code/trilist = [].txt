@@ -1,0 +1,12 @@
+trilist = []
+n = 1
+while n < 1010:
+    trinum = (n**2 + n)/2
+    trilist.append(int(trinum))
+    n += 1
+num = int(input("Enter a number between 0 and 5000: "))
+if num in trilist:
+    index = trilist.index(num)
+    print("{} is a triangular number and it is the {}th number".format(num,index+1))
+else:
+    print("{} is not a triangular number".format(num))
