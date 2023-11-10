@@ -1,7 +1,0 @@
-L = float(input("What is your desired loan amount?"))
-A = float(input("What is your annual income?"))
-C = float(input("What is the total value of your current loans?"))
-S = float(input("What is the total of your savings?"))
-Y = float(input("How many years do you want to pay back this loan?"))
-V = (L+C)/(S+A*Y)
-print("Your interest rate is {:.1F}%".format(V))
